@@ -14,6 +14,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(.custom("BitcountPropDoubleCursive-Bold", size: 32))
+            
+            Text("Hello, world!")
+                .font(.custom("BitcountPropDouble-SemiBold", size: 32))
         }
         .padding()
     }

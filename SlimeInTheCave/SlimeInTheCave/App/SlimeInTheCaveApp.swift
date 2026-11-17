@@ -1,6 +1,6 @@
 //
 //  SlimeInTheCaveApp.swift
-//  SlimeInTheCave
+//  SlimeInTheCave // SlimeCave  slimeCave
 //
 //  Created by Mikhail Zhachko on 17/11/2026.
 //

@@ -11,8 +11,21 @@
     ],
   },
   "files": [
-    { "kind": "folder", "path": "SlimeInTheCave", "target-membership": [ "SlimeInTheCave" ] },
     {
+      "kind": "folder",
+      "path": "SlimeInTheCave",
+      "target-membership": [
+        "SlimeInTheCave",
+      ],
+      "membership-exceptions": [
+        {
+          "target": "SlimeInTheCave",
+          "exclusions": [
+            "Resources/Info.plist",
+          ],
+        },
+      ],
+    }, {
       "kind": "group",
       "name": "Products",
       "children": [
@@ -39,11 +52,13 @@
         "DEVELOPMENT_TEAM": "DD3P835Y9D",
         "ENABLE_PREVIEWS": "YES",
         "GENERATE_INFOPLIST_FILE": "YES",
+        "INFOPLIST_FILE": "SlimeInTheCave/Resources/Info.plist",
         "INFOPLIST_KEY_CFBundleDisplayName": "Slime In The Cave",
         "INFOPLIST_KEY_LSApplicationCategoryType": "public.app-category.games",
         "INFOPLIST_KEY_UIApplicationSceneManifest_Generation": "YES",
         "INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents": "YES",
         "INFOPLIST_KEY_UILaunchScreen_Generation": "YES",
+        "INFOPLIST_KEY_UILaunchStoryboardName": "SlimeCaveLaunchScreen.storyboard",
         "INFOPLIST_KEY_UIStatusBarHidden": "YES",
         "INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad": "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight",
         "INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone": "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight",
