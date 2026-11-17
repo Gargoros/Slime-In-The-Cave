@@ -1,2 +1,2 @@
 # Slime-In-The-Cave
-Casual game, SwiftUI, SpriteKit, Pixel Art
+Casual game, iOS 17, SwiftUI, SpriteKit, Pixel Art
