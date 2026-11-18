@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SlimeCaveSquare_20.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
