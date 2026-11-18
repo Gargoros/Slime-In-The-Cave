@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SlimeInTheCaveApp: App {
+    @UIApplicationDelegateAdaptor(SlimeCaveAppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SlimeCaveLoadingView()
         }
     }
 }

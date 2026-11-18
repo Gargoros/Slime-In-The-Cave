@@ -15,6 +15,10 @@ enum SlimeInTheCaveFontsName {
 }
 //MARK: Texts
 enum SlimeInTheCaveTextsConstants {}
+//MARK: Data Strings
+enum SlimeInTheCaveDataStringsConstants: String {
+    case orientation
+}
 //MARK: Colors Names
 enum SlimeColorsNames {
     //MARK: Blue
